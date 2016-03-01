@@ -270,17 +270,6 @@ RPI-GND
 Text Label 8550 3100 2    60   ~ 0
 RPI-GND
 $Comp
-L BMP180-barometr U1
-U 1 1 56AD7F4C
-P 3400 7050
-F 0 "U1" H 3350 7600 60  0000 C CNN
-F 1 "BMP180-barometr" H 3400 7450 60  0000 C CNN
-F 2 "TSSOP28:BMP180" H 3300 6300 60  0001 C CNN
-F 3 "" H 3300 6300 60  0000 C CNN
-	1    3400 7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L MCP3021 ADC1
 U 1 1 56AD8083
 P 3100 9750
@@ -340,22 +329,12 @@ Text Label 8550 1400 2    60   ~ 0
 RPI-SCL
 Text Label 2650 9950 2    60   ~ 0
 RPI-SCL
-Text Label 2750 7250 2    60   ~ 0
-RPI-SCL
 Text Label 4900 3950 2    60   ~ 0
 RPI-SDA
 Text Label 4900 3800 2    60   ~ 0
 RPI-SCL
 Text Label 2650 9800 2    60   ~ 0
 RPI-SDA
-Text Label 2750 7350 2    60   ~ 0
-RPI-SDA
-Text Label 2750 6950 2    60   ~ 0
-RPI+3,3V
-Text Label 2750 7050 2    60   ~ 0
-RPI+3,3V
-Text Label 2750 7450 2    60   ~ 0
-RPI-GND
 $Comp
 L FJ J4
 U 1 1 56AE020D
@@ -1412,4 +1391,31 @@ Text Label 6700 8950 2    60   ~ 0
 GND-SERVO
 Text Label 6700 9050 2    60   ~ 0
 +5-SERVO
+$Comp
+L BMP280 PS1
+U 1 1 56D32CEA
+P 3050 7450
+F 0 "PS1" H 3050 8000 60  0000 C CNN
+F 1 "BMP280" H 3050 7850 60  0000 C CNN
+F 2 "TSSOP28:BMP280" H 3050 7450 60  0000 C CNN
+F 3 "" H 3050 7450 60  0000 C CNN
+	1    3050 7450
+	1    0    0    -1  
+$EndComp
+Text Label 2600 7600 2    60   ~ 0
+RPI+3,3V
+Text Label 2600 7700 2    60   ~ 0
+RPI+3,3V
+Text Label 2600 7900 2    60   ~ 0
+RPI-GND
+Text Label 2600 8000 2    60   ~ 0
+RPI-GND
+Text Label 2600 7350 2    60   ~ 0
+RPI-SCL
+Text Label 2600 7250 2    60   ~ 0
+RPI-SDA
+Text Label 2600 7450 2    60   ~ 0
+RPI-GND
+Text Label 2600 7150 2    60   ~ 0
+RPI+3,3V
 $EndSCHEMATC
