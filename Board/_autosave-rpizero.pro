@@ -1,14 +1,16 @@
-update=2016-03-01 22:08:22
+update=2016-03-05 19:26:22
 version=1
-last_client=kicad
+last_client=pcbnew
+[general]
+version=1
+RootSch=
+BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../Board;F:/Quad Project/Board
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -39,16 +41,14 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=rpiHAT
-LibName31=sc16is7x2_spi_tssop28
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=rpi2HATBMP280.net
-PadDrill=3.1
-PadDrillOvalY=3.1
-PadSizeH=3.1
-PadSizeV=3.1
+LastNetListRead=rpi2HATv2.net
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=0.7
+PadSizeV=0.35
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
